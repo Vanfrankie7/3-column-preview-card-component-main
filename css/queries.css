@@ -1,0 +1,89 @@
+/* Below 1200px */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid-container {
+    margin: 3rem;
+  }
+
+  svg {
+    margin-bottom: 2.4rem;
+  }
+
+  .text-header {
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .text-contents {
+    font-size: 1.3rem;
+    line-height: 1.3;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1.3rem;
+    margin-bottom: 0.1rem;
+    padding: 0.8rem 1.6rem;
+  }
+}
+
+/* Below 1088 */
+@media (max-width: 68em) {
+  .text-contents {
+    line-height: 1.2;
+    font-size: 1.3rem;
+  }
+
+  .sedans {
+    padding: 2.5rem;
+  }
+  .suvs {
+    padding: 2.5rem;
+  }
+  .luxury {
+    padding: 2.5rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    margin-bottom: 1rem;
+  }
+}
+
+/* below 944px */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  svg {
+    margin-bottom: 1.8rem;
+  }
+
+  .text-header {
+    font-size: 2.5rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .text-contents {
+    font-size: 1.2rem;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 40em) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    margin: 2rem;
+  }
+}
