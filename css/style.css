@@ -11,8 +11,12 @@ html {
 body {
   font-family: "Lexend Deca";
   font-weight: 400;
-  max-width: 92rem;
-  margin: 10rem 20rem;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 
 .grid-container {
@@ -22,6 +26,7 @@ body {
   color: hsl(0, 0%, 95%);
   border-radius: 9px;
   margin-bottom: 3rem;
+  max-width: 72rem;
 }
 
 svg {
